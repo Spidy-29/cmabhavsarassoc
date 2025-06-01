@@ -1,0 +1,75 @@
+[26-Nov-2019 14:15:21 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavs/public_html/wp-includes/functions.php on line 8
+[26-Nov-2019 14:15:21 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/cmabhavs/public_html/wp-includes/functions.php on line 8
+[17-Feb-2020 22:27:08 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavs/public_html/wp-includes/functions.php on line 8
+[17-Feb-2020 22:27:08 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/cmabhavs/public_html/wp-includes/functions.php on line 8
+[15-Apr-2020 00:08:34 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavs/public_html/wp-includes/functions.php on line 8
+[15-Apr-2020 00:08:34 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/cmabhavs/public_html/wp-includes/functions.php on line 8
+[18-May-2020 09:41:26 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[18-May-2020 09:41:26 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[18-May-2020 09:41:26 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[18-May-2020 09:41:26 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[26-May-2020 23:47:43 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[26-May-2020 23:47:43 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[26-May-2020 23:47:43 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[26-May-2020 23:47:43 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[28-Sep-2020 20:24:29 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Sep-2020 20:24:29 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[28-Sep-2020 20:24:29 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[28-Sep-2020 20:24:29 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[09-Jan-2021 15:23:54 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[09-Jan-2021 15:23:54 America/New_York] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/cmabhavsarassoc/public_html/wp-includes/rss-functions.php on line 8
+[21-Apr-2021 20:30:49 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Apr-2021 20:30:49 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[21-Apr-2021 20:30:49 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[21-Apr-2021 20:30:49 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[25-Nov-2021 08:21:11 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[25-Nov-2021 08:21:11 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[25-Nov-2021 08:21:11 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[25-Nov-2021 08:21:11 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[08-Feb-2022 11:08:31 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Feb-2022 11:08:31 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[08-Feb-2022 11:08:31 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[08-Feb-2022 11:08:31 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[20-Mar-2022 02:05:03 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[20-Mar-2022 02:05:03 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[20-Mar-2022 02:05:03 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[20-Mar-2022 02:05:03 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[19-Apr-2022 21:27:27 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[19-Apr-2022 21:27:27 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[19-Apr-2022 21:27:27 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[19-Apr-2022 21:27:27 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[28-Apr-2022 08:57:39 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Apr-2022 08:57:39 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[28-Apr-2022 08:57:39 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[28-Apr-2022 08:57:39 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[21-May-2022 23:34:08 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[01-Jun-2022 23:05:28 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[24-Jun-2022 02:25:41 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2022 21:23:56 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[17-Sep-2022 08:27:03 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[17-Sep-2022 08:27:03 America/New_York] PHP Fatal error:  Call to undefined function is_robots() in /home/cmabhavsarassoc/public_html/wp-includes/template-loader.php on line 28
+[21-Sep-2022 16:26:46 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Sep-2022 16:26:46 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[21-Sep-2022 16:26:46 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[21-Sep-2022 16:26:46 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[27-Sep-2022 00:31:50 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Sep-2022 00:31:50 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[27-Sep-2022 00:31:50 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[27-Sep-2022 00:31:50 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[30-Nov-2022 15:01:46 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[30-Nov-2022 15:02:44 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[30-Nov-2022 15:04:04 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[30-Nov-2022 15:04:09 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[30-Nov-2022 15:04:45 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[30-Nov-2022 15:05:06 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[30-Nov-2022 15:05:08 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[30-Nov-2022 15:05:52 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[30-Nov-2022 15:05:54 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[30-Nov-2022 15:07:10 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[23-Dec-2022 08:09:13 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[25-Dec-2022 22:41:47 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[25-Dec-2022 22:41:47 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[25-Dec-2022 22:41:47 America/New_York] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[25-Dec-2022 22:41:47 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/cmabhavsarassoc/public_html/wp-includes/functions.php on line 8
+[14-Feb-2023 22:13:20 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[14-Feb-2023 22:13:20 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0

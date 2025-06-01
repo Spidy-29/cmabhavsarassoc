@@ -1,0 +1,2 @@
+[18-Feb-2023 20:35:26 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[18-Feb-2023 20:35:26 America/New_York] PHP Fatal error:  Call to undefined function plugin_basename() in /home/cmabhavsarassoc/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 36

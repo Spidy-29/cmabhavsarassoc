@@ -1,0 +1,114 @@
+[03-Apr-2020 09:44:30 UTC] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavs/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[06-Apr-2020 02:05:37 UTC] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavs/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
+[29-Aug-2020 15:34:07 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:34:07 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[18-Nov-2020 06:45:42 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[18-Nov-2020 06:45:42 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[05-Jan-2021 14:36:03 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[05-Jan-2021 14:36:03 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[30-Mar-2021 01:47:35 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[30-Mar-2021 01:47:35 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[25-Sep-2021 21:44:42 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[25-Sep-2021 21:44:42 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[26-Sep-2021 03:08:33 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[26-Sep-2021 03:08:33 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[25-Oct-2021 04:51:48 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[25-Oct-2021 04:51:48 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[14-Feb-2022 05:11:41 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[14-Feb-2022 05:11:41 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[14-Feb-2022 09:48:35 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[14-Feb-2022 09:48:35 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[15-Apr-2022 20:16:10 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[15-Apr-2022 20:16:10 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[15-Apr-2022 20:21:15 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[15-Apr-2022 20:21:15 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[18-May-2022 15:24:40 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[18-May-2022 15:24:40 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[10-Jul-2022 16:28:22 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[10-Jul-2022 16:28:22 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[21-Jul-2022 09:40:04 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:40:08 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:40:12 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:40:12 America/New_York] PHP Fatal error:  Class 'getid3_lib' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio-video.asf.php on line 17
+[21-Jul-2022 09:40:16 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:40:16 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio-video.flv.php on line 76
+[21-Jul-2022 09:40:21 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:40:22 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio-video.matroska.php on line 217
+[21-Jul-2022 09:40:28 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:40:28 America/New_York] PHP Fatal error:  Class 'getid3_lib' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio-video.quicktime.php on line 18
+[21-Jul-2022 09:40:32 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:40:32 America/New_York] PHP Fatal error:  Class 'getid3_lib' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio-video.riff.php on line 26
+[21-Jul-2022 09:40:36 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:40:37 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[21-Jul-2022 09:40:41 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:40:41 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.dts.php on line 22
+[21-Jul-2022 09:40:45 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:40:45 America/New_York] PHP Fatal error:  Class 'getid3_lib' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.flac.php on line 18
+[21-Jul-2022 09:40:50 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:40:50 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.mp3.php on line 26
+[21-Jul-2022 09:40:55 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:40:55 America/New_York] PHP Fatal error:  Class 'getid3_lib' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ogg.php on line 17
+[21-Jul-2022 09:40:59 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:41:00 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.tag.apetag.php on line 18
+[21-Jul-2022 09:41:04 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:41:04 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.tag.id3v1.php on line 19
+[21-Jul-2022 09:41:09 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:41:09 America/New_York] PHP Fatal error:  Class 'getid3_lib' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.tag.id3v2.php on line 17
+[21-Jul-2022 09:41:16 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:41:16 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.tag.lyrics3.php on line 19
+[26-Jul-2022 08:16:31 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[26-Jul-2022 08:16:31 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[27-Jul-2022 02:31:53 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:31:57 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:32:02 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:32:02 America/New_York] PHP Fatal error:  Class 'getid3_lib' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio-video.asf.php on line 17
+[27-Jul-2022 02:32:06 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:32:06 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio-video.flv.php on line 76
+[27-Jul-2022 02:32:12 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:32:12 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio-video.matroska.php on line 217
+[27-Jul-2022 02:32:17 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:32:17 America/New_York] PHP Fatal error:  Class 'getid3_lib' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio-video.quicktime.php on line 18
+[27-Jul-2022 02:32:21 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:32:21 America/New_York] PHP Fatal error:  Class 'getid3_lib' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio-video.riff.php on line 26
+[27-Jul-2022 02:32:26 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:32:26 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[27-Jul-2022 02:32:31 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:32:31 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.dts.php on line 22
+[27-Jul-2022 02:32:35 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:32:35 America/New_York] PHP Fatal error:  Class 'getid3_lib' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.flac.php on line 18
+[27-Jul-2022 02:32:40 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:32:40 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.mp3.php on line 26
+[27-Jul-2022 02:32:45 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:32:45 America/New_York] PHP Fatal error:  Class 'getid3_lib' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ogg.php on line 17
+[27-Jul-2022 02:32:50 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:32:50 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.tag.apetag.php on line 18
+[27-Jul-2022 02:32:54 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:32:54 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.tag.id3v1.php on line 19
+[27-Jul-2022 02:32:59 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:32:59 America/New_York] PHP Fatal error:  Class 'getid3_lib' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.tag.id3v2.php on line 17
+[27-Jul-2022 02:33:04 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:33:04 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.tag.lyrics3.php on line 19
+[27-Jul-2022 13:20:31 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 13:20:31 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[06-Sep-2022 01:09:59 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[06-Sep-2022 01:09:59 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[18-Sep-2022 17:03:44 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[18-Sep-2022 17:03:44 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[19-Sep-2022 09:59:48 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[19-Sep-2022 09:59:48 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[19-Sep-2022 10:03:38 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[19-Sep-2022 10:03:38 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[12-Oct-2022 02:42:43 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[12-Oct-2022 02:42:43 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[20-Oct-2022 20:59:01 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[20-Oct-2022 20:59:01 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[14-Nov-2022 19:19:50 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[14-Nov-2022 19:19:50 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[21-Dec-2022 01:57:28 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Dec-2022 01:57:28 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[14-Jan-2023 11:54:29 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[14-Jan-2023 11:54:29 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[05-Feb-2023 10:03:42 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[05-Feb-2023 10:03:42 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19
+[08-Feb-2023 18:32:59 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Feb-2023 18:32:59 America/New_York] PHP Fatal error:  Class 'getid3_handler' not found in /home/cmabhavsarassoc/public_html/wp-includes/ID3/module.audio.ac3.php on line 19

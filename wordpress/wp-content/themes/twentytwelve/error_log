@@ -1,0 +1,107 @@
+[14-Jun-2019 16:28:20 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/search.php on line 10
+[16-Nov-2019 14:02:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[18-Nov-2019 10:43:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[12-Dec-2019 09:49:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/functions.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/functions.php on line 78
+[13-Dec-2019 18:50:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[15-Dec-2019 19:08:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[12-Jan-2020 03:16:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[15-Jan-2020 02:02:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[17-Apr-2020 15:47:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[25-Apr-2020 11:11:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/cmabhavs/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[28-Oct-2020 20:29:31 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Oct-2020 20:29:31 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[09-Jan-2021 15:24:17 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[09-Jan-2021 15:24:17 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[11-Feb-2021 20:45:15 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[11-Feb-2021 20:45:15 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[22-May-2021 04:22:17 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[22-May-2021 04:22:17 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[08-Nov-2021 15:03:12 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Nov-2021 15:03:12 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[08-Nov-2021 15:03:12 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Nov-2021 15:03:12 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Nov-2021 15:03:12 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[08-Nov-2021 15:03:12 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/archive.php on line 20
+[08-Nov-2021 15:03:12 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Nov-2021 15:03:12 America/New_York] PHP Fatal error:  Call to undefined function language_attributes() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/header.php on line 13
+[25-Nov-2021 04:07:28 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[25-Nov-2021 04:07:28 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[25-Nov-2021 04:07:29 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[25-Nov-2021 04:07:29 America/New_York] PHP Fatal error:  Call to undefined function language_attributes() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/header.php on line 13
+[25-Nov-2021 04:07:29 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[25-Nov-2021 04:07:29 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[25-Nov-2021 04:07:29 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[25-Nov-2021 04:07:29 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/archive.php on line 20
+[28-Nov-2021 04:02:03 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Nov-2021 04:02:03 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Nov-2021 04:02:03 America/New_York] PHP Fatal error:  Call to undefined function language_attributes() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/header.php on line 13
+[28-Nov-2021 04:02:03 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[28-Nov-2021 04:02:04 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Nov-2021 04:02:04 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Nov-2021 04:02:04 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[28-Nov-2021 04:02:04 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/archive.php on line 20
+[18-Dec-2021 21:12:38 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[18-Dec-2021 21:12:38 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[04-Mar-2022 23:12:38 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[04-Mar-2022 23:12:39 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[07-Mar-2022 00:38:09 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[07-Mar-2022 00:38:09 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[09-Mar-2022 00:02:24 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[09-Mar-2022 00:02:24 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[19-May-2022 21:09:54 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[19-May-2022 21:09:54 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[19-May-2022 21:10:01 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[19-May-2022 21:10:01 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[21-May-2022 22:47:42 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-May-2022 22:47:42 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[21-May-2022 22:48:24 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-May-2022 22:48:24 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[03-Aug-2022 21:16:06 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[03-Aug-2022 21:16:06 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[03-Aug-2022 21:16:09 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[03-Aug-2022 21:16:09 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[29-Aug-2022 21:23:51 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2022 21:23:51 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[18-Oct-2022 17:21:56 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[18-Oct-2022 17:21:56 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[18-Oct-2022 17:21:56 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[18-Oct-2022 17:21:56 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[18-Feb-2023 20:35:26 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[18-Feb-2023 20:35:26 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[18-Feb-2023 20:35:26 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17
+[18-Feb-2023 20:35:26 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/archive.php on line 20
+[18-Feb-2023 20:35:26 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[18-Feb-2023 20:35:26 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[18-Feb-2023 20:35:26 America/New_York] PHP Fatal error:  Call to undefined function widgets_on_template() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/footer.php on line 19
+[18-Feb-2023 20:35:26 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/404.php on line 10
+[18-Feb-2023 20:35:26 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[18-Feb-2023 20:35:26 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/search.php on line 10
+[06-Mar-2023 07:46:05 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[06-Mar-2023 07:46:05 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/cmabhavsarassoc/public_html/wp-content/themes/twentytwelve/index.php on line 17

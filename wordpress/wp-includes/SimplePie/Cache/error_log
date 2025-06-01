@@ -1,0 +1,36 @@
+[21-Jul-2022 09:41:46 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:41:51 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:41:51 America/New_York] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/DB.php on line 52
+[21-Jul-2022 09:41:55 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:41:55 America/New_York] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/File.php on line 52
+[21-Jul-2022 09:42:00 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:42:00 America/New_York] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[21-Jul-2022 09:42:03 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:42:04 America/New_York] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[21-Jul-2022 09:48:38 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:48:42 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:48:42 America/New_York] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/DB.php on line 52
+[21-Jul-2022 09:48:46 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:48:46 America/New_York] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/File.php on line 52
+[21-Jul-2022 09:48:51 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:48:51 America/New_York] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[21-Jul-2022 09:48:55 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jul-2022 09:48:55 America/New_York] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[27-Jul-2022 02:33:36 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:33:41 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:33:41 America/New_York] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/DB.php on line 52
+[27-Jul-2022 02:33:47 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:33:47 America/New_York] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/File.php on line 52
+[27-Jul-2022 02:33:52 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:33:52 America/New_York] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[27-Jul-2022 02:33:57 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:33:57 America/New_York] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/MySQL.php on line 58
+[27-Jul-2022 02:40:39 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:40:44 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:40:44 America/New_York] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/DB.php on line 52
+[27-Jul-2022 02:40:48 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:40:48 America/New_York] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/File.php on line 52
+[27-Jul-2022 02:40:52 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:40:52 America/New_York] PHP Fatal error:  Interface 'SimplePie_Cache_Base' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/Memcache.php on line 59
+[27-Jul-2022 02:40:57 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Jul-2022 02:40:57 America/New_York] PHP Fatal error:  Class 'SimplePie_Cache_DB' not found in /home/cmabhavsarassoc/public_html/wp-includes/SimplePie/Cache/MySQL.php on line 58

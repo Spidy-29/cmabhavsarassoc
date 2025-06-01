@@ -1,0 +1,2 @@
+[24-Jul-2020 13:02:30 America/New_York] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[24-Jul-2020 13:02:30 America/New_York] PHP Fatal error:  Call to undefined function add_action() in /home/cmabhavsarassoc/public_html/wp-content/plugins/contact-form-7/modules/file.php on line 8

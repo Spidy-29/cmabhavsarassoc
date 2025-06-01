@@ -1,0 +1,101 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: October 17, 2022 1:14 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.0
+WORDPRESS:	4.2.33
+PHP INFO:	5.6.40 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: Unabled to set php memory_limit 
+MEMORY STACK: 5.25MB
+[CTRL DUP ARCIVE] PACKAGE AS NEW ID 2 SAVED | STATUS:0
+[DUP ARCHIVE] BUILDING DATABASE
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_duparchive_package_build'), call_user_func_array, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Database->build, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_duparchive_package_build'), call_user_func_array, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Database->build, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_duparchive_package_build'), call_user_func_array, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Database->build, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_duparchive_package_build'), call_user_func_array, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Database->build, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_duparchive_package_build'), call_user_func_array, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Database->build, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_duparchive_package_build'), call_user_func_array, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Database->build, DUP_DB::getBuildMode, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_duparchive_package_build'), call_user_func_array, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Database->build, DUP_DB::getBuildMode, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_duparchive_package_build'), call_user_func_array, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Database->build, DUP_DB::getBuildMode, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_duparchive_package_build'), call_user_func_array, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Database->build, DUP_DB::getBuildMode, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_duparchive_package_build'), call_user_func_array, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Database->build, DUP_DB::getBuildMode, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+TABLES: total:13 | filtered:0 | create:13
+FILTERED: []
+SQL CREATED: 20221017_ashishbhavsarassociates_f4144630b4f35466494e564392a8a8a2_20221017131137_database.sql
+SQL FILE SIZE: 613.56KB (628281)
+SQL FILE TIME: 2022-10-17 13:14:50
+SQL RUNTIME: 0.32 sec.
+[DUP ARCHIVE] VALIDATING DATABASE
+[DUP ARCHIVE] DONE DATABASE
+
+********************************************************************************
+ARCHIVE Type=DUP Mode=DupArchive
+********************************************************************************
+ARCHIVE DIR:  /home/cmabhavsarassoc/public_html
+ARCHIVE FILE: 20221017_ashishbhavsarassociates_f4144630b4f35466494e564392a8a8a2_20221017131137_archive.daf
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	44.99MB
+STATS:	Dirs 461 | Files 2,590 | Total 3,051
+[DUP ARCHIVE] DONE ARCHIVE
+building installer
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_duparchive_package_build'), call_user_func_array, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Archive->build, DUP_DupArchive::create, DUP_Installer->build, DUP_Installer->create_enhanced_installer_files, DUP_Installer->create_archive_config_file, DUP_Database->getScannerData, DUP_Database->setInfoObj, DUP_DB::getBuildMode, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_duparchive_package_build'), call_user_func_array, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Archive->build, DUP_DupArchive::create, DUP_Installer->build, DUP_Installer->create_enhanced_installer_files, DUP_Installer->create_archive_config_file, DUP_Database->getScannerData, DUP_Database->setInfoObj, DUP_DB::getBuildMode, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_duparchive_package_build'), call_user_func_array, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Archive->build, DUP_DupArchive::create, DUP_Installer->build, DUP_Installer->create_enhanced_installer_files, DUP_Installer->create_archive_config_file, DUP_Database->getScannerData, DUP_Database->setInfoObj, DUP_DB::getBuildMode, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_duparchive_package_build'), call_user_func_array, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Archive->build, DUP_DupArchive::create, DUP_Installer->build, DUP_Installer->create_enhanced_installer_files, DUP_Installer->create_archive_config_file, DUP_Database->getScannerData, DUP_Database->setInfoObj, DUP_DB::getBuildMode, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_duparchive_package_build'), call_user_func_array, duplicator_duparchive_package_build, DUP_Package->runDupArchiveBuild, DUP_Archive->build, DUP_DupArchive::create, DUP_Installer->build, DUP_Installer->create_enhanced_installer_files, DUP_Installer->create_archive_config_file, DUP_Database->getScannerData, DUP_Database->setInfoObj, DUP_DB::getBuildMode, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[DUP ARCHIVE] DONE ARCHIVE
+COMPRESSED SIZE: 27.93MB
+ARCHIVE RUNTIME: 10.37 sec.
+MEMORY STACK: 6.5MB
+CREATE WARNINGS: No warnings.
+VALIDATION WARNINGS: No warnings.
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] HAS COMPLETED CLOSING
+[DUP ARCHIVE] DUP ARCHIVE INTEGRITY CHECK
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 613.56KB
+INSTALLER FILE: 94.72KB
+ARCHIVE FILE: 27.93MB 
+EXPECTED FILE/DIRECTORY COUNT: 3,780
+ACTUAL FILE/DIRECTORY COUNT: 3,781
+
+********************************************************************************
+RECORD ID:[2]
+TOTAL PROCESS RUNTIME: 10.38 sec.
+PEAK PHP MEMORY USED: 8.25MB
+DONE PROCESSING => 20221017_ashishbhavsarassociates 2022-10-17 13:15:00
+

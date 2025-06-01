@@ -1,0 +1,103 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: October 17, 2022 1:07 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.0
+WORDPRESS:	4.2.33
+PHP INFO:	5.6.40 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: Unabled to set php memory_limit 
+MEMORY STACK: 5.25MB
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_DB::getBuildMode, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_DB::getBuildMode, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_DB::getBuildMode, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_DB::getBuildMode, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.db.php|LINE:165]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_DB::getBuildMode, DUP_DB::getMySqlDumpPath, exec, DUP_Handler::error, DUP_Handler::getMessage
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+[PHP ERR][WARN] MSG:exec() has been disabled for security reasons [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/package/class.pack.database.php|LINE:559]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_Database->mysqlDump, exec, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][WARN] MSG:implode(): Invalid arguments passed [CODE:2|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/package/class.pack.database.php|LINE:560]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_Database->mysqlDump, implode, DUP_Handler::error, DUP_Handler::getMessage
+FILTERED: []
+RESPONSE: Ran from /usr/bin/mysqldump
+TABLES: total:13 | filtered:0 | create:13
+MYSQL DUMP ERROR 
+[PHP ERR][NOTICE] MSG:Undefined index: file [CODE:8|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.logging.php|LINE:323]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_Database->mysqlDump, DUP_Log::error, DUP_Log::getStack, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][NOTICE] MSG:Undefined index: line [CODE:8|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.logging.php|LINE:323]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_Database->mysqlDump, DUP_Log::error, DUP_Log::getStack, DUP_Handler::error, DUP_Handler::getMessage
+
+==================================================================================
+DUPLICATOR ERROR
+Please try again! If the error persists see the Duplicator 'Help' menu.
+---------------------------------------------------------------------------------
+MESSAGE:
+	Shell mysql dump error. Change SQL Mode to the "PHP Code" in the Duplicator > Settings > Packages.
+DETAILS:
+	/* Duplicator WordPress Timestamp: 2022-10-17 13:07:22*/
+/* DUPLICATOR_MYSQLDUMP_EOF */
+TRACE:
+	 1. class.pack.database.php : error (595)
+	 2. class.pack.database.php : mysqlDump (220)
+	 3. class.pack.php : build (1366)
+	 4. ctrl.package.php : runZipBuild (89)
+	 5.  : duplicator_package_build ()
+	 6. plugin.php : call_user_func_array (496)
+	 7. admin-ajax.php : do_action (86)
+==================================================================================
+
+[PHP ERR][NOTICE] MSG:Undefined index: file [CODE:8|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.logging.php|LINE:323]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_Log::error, DUP_Log::getStack, DUP_Handler::error, DUP_Handler::getMessage
+[PHP ERR][NOTICE] MSG:Undefined index: line [CODE:8|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.logging.php|LINE:323]
+do_action('wp_ajax_duplicator_package_build'), call_user_func_array, duplicator_package_build, DUP_Package->runZipBuild, DUP_Database->build, DUP_Log::error, DUP_Log::getStack, DUP_Handler::error, DUP_Handler::getMessage
+
+==================================================================================
+DUPLICATOR ERROR
+Please try again! If the error persists see the Duplicator 'Help' menu.
+---------------------------------------------------------------------------------
+MESSAGE:
+	Runtime error in DUP_Database::Build. Shell mysql dump error. Change SQL Mode to the "PHP Code" in the Duplicator > Settings > Packages.
+DETAILS:
+	Exception: exception 'Exception' with message 'Shell mysql dump error. Change SQL Mode to the "PHP Code" in the Duplicator > Settings > Packages.' in /home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/class.logging.php:300
+Stack trace:
+#0 /home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/package/class.pack.database.php(595): DUP_Log::error('Shell mysql dum...', '/* Duplicator W...', 1)
+#1 /home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/package/class.pack.database.php(220): DUP_Database->mysqlDump('/usr/bin/mysqld...')
+#2 /home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/classes/package/class.pack.php(1366): DUP_Database->build(Object(DUP_Package), 1)
+#3 /home/cmabhavsarassoc/public_html/wp-content/plugins/duplicator/ctrls/ctrl.package.php(89): DUP_Package->runZipBuild()
+#4 [internal function]: duplicator_package_build('')
+#5 /home/cmabhavsarassoc/public_html/wp-includes/plugin.php(496): call_user_func_array('duplicator_pack...', Array)
+#6 /home/cmabhavsarassoc/public_html/wp-admin/admin-ajax.php(86): do_action('wp_ajax_duplica...')
+#7 {main}
+TRACE:
+	 1. class.pack.database.php : error (250)
+	 2. class.pack.php : build (1366)
+	 3. ctrl.package.php : runZipBuild (89)
+	 4.  : duplicator_package_build ()
+	 5. plugin.php : call_user_func_array (496)
+	 6. admin-ajax.php : do_action (86)
+==================================================================================
+
+[PHP ERR][NOTICE] MSG:Undefined index: enable_css [CODE:8|FILE:/home/cmabhavsarassoc/public_html/wp-content/plugins/widgets-on-pages/widgets_on_pages.php|LINE:289]
+DUP_Handler::shutdown, DUP_Handler::error, DUP_Handler::getMessage
