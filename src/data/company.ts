@@ -9,8 +9,16 @@ export interface CompanyInfo {
     zip: string
     country: string
   }
+  branch: {
+    street: string
+    city: string
+    state: string
+    zip: string
+    country: string
+  }
   contact: {
     phone: string
+    mobile: string
     email: string
     website: string
   }
@@ -33,23 +41,31 @@ export interface CompanyInfo {
 }
 
 export const companyInfo: CompanyInfo = {
-  name: "CMA Bhavsar & Associates",
-  tagline: "Your Trusted Partner in Financial Excellence",
-  description: "We are a leading firm of Chartered Accountants providing comprehensive financial services to businesses and individuals. Our team of experienced professionals is dedicated to delivering excellence in every aspect of our work.",
+  name: "Ashish Bhavsar & Associates",
+  tagline: "Cost Accountants",
+  description: "The Firm was set up by its founder partner CMA Ashish Bhavsar at Ahmedabad. Looking to the growth of the firm, firm establish its branch at Rajkot. Since then firm grow within short span of time. To provide all type of service to our client at one place through qualified, motivated and dedicated young team. Our mission to be a part of client growth story through our professional excellence.",
   address: {
-    street: "123 Business Street",
-    city: "Financial District",
-    state: "State",
-    zip: "12345",
-    country: "Country"
+    street: "D-916, Shiromani Complex, Opp. Ocean Park, Nehrunagar, Satellite Road",
+    city: "Ahmedabad",
+    state: "Gujarat",
+    zip: "380 015",
+    country: "India"
+  },
+  branch: {
+    street: "422, 4th Floor, RK Empire, Nr. Mavdi Circle, 150 Feet Ring Road",
+    city: "Rajkot",
+    state: "Gujarat", 
+    zip: "360 004",
+    country: "India"
   },
   contact: {
-    phone: "+1 (555) 123-4567",
-    email: "info@cmabhavsarassoc.com",
-    website: "www.cmabhavsarassoc.com"
+    phone: "079-26768804",
+    mobile: "+91 99241 28804",
+    email: "ashish@cmabhavsarassoc.in",
+    website: "www.cmabhavsarassoc.in"
   },
   social: {
-    linkedin: "https://linkedin.com/company/cmabhavsarassoc",
+    linkedin: "https://linkedin.com/company/ashish-bhavsar-associates",
     twitter: "https://twitter.com/cmabhavsarassoc",
     facebook: "https://facebook.com/cmabhavsarassoc"
   },
@@ -60,22 +76,22 @@ export const companyInfo: CompanyInfo = {
   },
   team: [
     {
-      name: "John Doe",
-      position: "Managing Partner",
-      bio: "With over 20 years of experience in accounting and finance, John leads our team with expertise and vision.",
-      imageUrl: "/images/team/john-doe.jpg"
+      name: "CMA Ashish Bhavsar",
+      position: "Founder Partner",
+      bio: "CMA Ashish Bhavsar is academically sound and dynamic person. He has completed his Cost Accountancy in the year 2001, with 11th rank at national level in the final examination of The Institute of Cost Accountants of India (ICAI). He has wide experience in cost and management which includes costing system design, MIS development, preparation of cost records as per the companies act, cost audit of cost records as per the companies act etc.",
+      imageUrl: "/images/team/ashish-bhavsar.jpg"
     },
     {
-      name: "Jane Smith",
-      position: "Senior Tax Advisor",
-      bio: "Jane specializes in tax planning and compliance, helping clients optimize their tax positions.",
-      imageUrl: "/images/team/jane-smith.jpg"
+      name: "CMA Sagar Kapadiya",
+      position: "Partner",
+      bio: "CMA Sagar Kapadiya is dynamic and young person. He has completed his Cost Accountancy in the year 2013 from the institute of Cost Accountants of India. He has practical exposure in the field of Cost & Management Accountancy relating to cost record, cost audit, Accounting, Finance, Income Tax & Company Formation.",
+      imageUrl: "/images/team/sagar-kapadiya.jpg"
     },
     {
-      name: "Mike Johnson",
-      position: "Audit Director",
-      bio: "Mike oversees our audit services, ensuring the highest standards of quality and compliance.",
-      imageUrl: "/images/team/mike-johnson.jpg"
+      name: "CMA Rajesh Vamja",
+      position: "Partner",
+      bio: "CMA Rajesh Vamja is dynamic and young person. He has completed his Cost Accountancy in the year 2012 from the institute of Cost Accountants of India. He is certified as a Tax Return Preparer (TRPs) by the income tax department & NIIT. He has practical exposure in the field of cost & management accountancy relating to cost record, cost audit & MIS reporting.",
+      imageUrl: "/images/team/rajesh-vamja.jpg"
     }
   ]
-} 
+}
