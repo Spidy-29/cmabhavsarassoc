@@ -166,7 +166,7 @@ export default function AboutPage() {
                 Professional Recognition
               </h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Our founder partner's achievements and recognition in the professional community
+                Our founder partner&apos;s achievements and recognition in the professional community
               </p>
             </div>
 

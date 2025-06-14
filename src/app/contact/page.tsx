@@ -39,7 +39,7 @@ export default function ContactPage() {
                       Quick Inquiry
                     </CardTitle>
                     <p className="text-muted-foreground">
-                      Send us your requirements and we'll get back to you with professional advice
+                      Send us your requirements and we&apos;ll get back to you with professional advice
                     </p>
                   </CardHeader>
                   <CardContent>
@@ -219,7 +219,7 @@ export default function ContactPage() {
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
               Contact us today for expert cost accounting, audit, and business advisory services. 
-              We're here to help your business achieve compliance and growth.
+              We&apos;re here to help your business achieve compliance and growth.
             </p>
             <div className="flex gap-4 justify-center">
               <a
