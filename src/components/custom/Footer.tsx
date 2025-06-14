@@ -5,9 +5,9 @@ export function Footer() {
   return (
     <footer className="border-t bg-background">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-stretch justify-items-center">
           {/* Company Info */}
-          <div className="space-y-4">
+          <div className="space-y-4 w-full">
             <h3 className="text-lg font-heading font-semibold text-primary">
               {companyInfo.name}
             </h3>
@@ -61,7 +61,7 @@ export function Footer() {
           </div>
 
           {/* Services */}
-          <div className="space-y-4">
+          {/* <div className="space-y-4">
             <h4 className="text-sm font-medium text-primary">Services</h4>
             <nav className="flex flex-col space-y-2">
               <Link href="/services/audit-assurance" className="text-sm text-muted-foreground hover:text-primary">
@@ -77,7 +77,7 @@ export function Footer() {
                 Accounting Services
               </Link>
             </nav>
-          </div>
+          </div> */}
 
           {/* Contact Info */}
           <div className="space-y-4">
@@ -88,6 +88,9 @@ export function Footer() {
               <p>Phone: {companyInfo.contact.phone}</p>
               <p>Email: {companyInfo.contact.email}</p>
             </div>
+          </div>
+
+          <div className="space-y-4">
             <div className="space-y-1 text-sm text-muted-foreground">
               <p><strong>Business Hours:</strong></p>
               <p>Mon-Fri: {companyInfo.businessHours.weekdays}</p>

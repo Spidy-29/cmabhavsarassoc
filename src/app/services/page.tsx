@@ -242,7 +242,7 @@ export default function ServicesPage() {
                 </Button>
               </div>
               
-              <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto">
+              {/* <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto">
                 <div className="text-center">
                   <h4 className="font-medium text-primary mb-1">Head Office</h4>
                   <p className="text-sm text-muted-foreground">
@@ -255,7 +255,7 @@ export default function ServicesPage() {
                     Rajkot - Contact Partners
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>

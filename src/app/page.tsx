@@ -3,6 +3,7 @@ import { Footer } from "@/components/custom/Footer"
 import { Button } from "@/components/ui/button"
 import { services } from "@/data/services"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -35,9 +36,10 @@ export default function Home() {
               </div>
               <div className="relative h-[400px] rounded-lg overflow-hidden">
                 {/* Add your hero image here */}
-                <div className="absolute inset-0 bg-primary/10 flex items-center justify-center">
+                <Image src="/images/banner-2.jpg" alt="Professional Services Image" width={1000}height={1000} />
+                {/* <div className="absolute inset-0 bg-primary/10 flex items-center justify-center">
                   <p className="text-primary/50 text-lg">Professional Services Image</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -222,9 +224,9 @@ export default function Home() {
               <Button asChild size="lg">
                 <Link href="/contact">Contact Us Today</Link>
               </Button>
-              <Button variant="outline" size="lg" asChild>
+              {/* <Button variant="outline" size="lg" asChild>
                 <Link href="tel:+919924128804">Call: +91 99241 28804</Link>
-              </Button>
+              </Button> */}
             </div>
           </div>
         </section>
