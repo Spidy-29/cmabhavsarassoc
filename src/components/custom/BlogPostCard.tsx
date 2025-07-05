@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import Image from "next/image"
 
 interface BlogPostCardProps {
   title: string
@@ -23,7 +24,7 @@ export function BlogPostCard({
     <Card className="group overflow-hidden">
       {imageUrl && (
         <div className="relative h-48 overflow-hidden">
-          <img
+          <Image
             src={imageUrl}
             alt={title}
             className="object-cover w-full h-full transition-transform group-hover:scale-105"

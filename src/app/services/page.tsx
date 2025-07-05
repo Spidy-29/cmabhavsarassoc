@@ -129,16 +129,16 @@ export default function ServicesPage() {
                    <li>• Gas Cylinder for various uses</li>
                    <li>• Rubber (Vehicle Tubes)</li>
                    <li>• Tubes and Pipes (Steel Tubes, Precision Tubes, Copper Plated Aluminum Tubes)</li>
-                   <li>•Injection Molding Machine, Pipe Extrusion Line, Blown Film Extrusion Line</li>
-                   <li>•Vacuum pump, Air Compressors, Air Motor & Air Conditioners</li>
-                   <li>•Lighting Industry (Lighting Bulbs, Tube Lights, Sodium Lamps, Mercury Lamps, Caps, Filaments, and Glass Sheet etc. Components)</li>
-                   <li>•Various Types of Chemicals, Dyes & Intermediates, Agro Chemicals (Pesticides) etc.</li>
-                   <li>•Insecticides & Fertilizers</li>
-                   <li>•All Type of Vegetable Oil Product</li>
-                   <li>•Pharma Products - Tablet, Capsule, Ointment , Liquid, Powder</li>
-                   <li>•Ice Cream</li>
-                   <li>•Food Products</li>
-                   <li>•Publication & Stationery items</li>
+                   <li>• Injection Molding Machine, Pipe Extrusion Line, Blown Film Extrusion Line</li>
+                   <li>• Vacuum pump, Air Compressors, Air Motor & Air Conditioners</li>
+                   <li>• Lighting Industry (Lighting Bulbs, Tube Lights, Sodium Lamps, Mercury Lamps, Caps, Filaments, and Glass Sheet etc. Components)</li>
+                   <li>• Various Types of Chemicals, Dyes & Intermediates, Agro Chemicals (Pesticides) etc.</li>
+                   <li>• Insecticides & Fertilizers</li>
+                   <li>• All Type of Vegetable Oil Product</li>
+                   <li>• Pharma Products - Tablet, Capsule, Ointment , Liquid, Powder</li>
+                   <li>• Ice Cream</li>
+                   <li>• Food Products</li>
+                   <li>• Publication & Stationery items</li>
                  </ul>
                </CardContent>
              </Card>

@@ -3,6 +3,7 @@ import { Footer } from "@/components/custom/Footer"
 import { BlogPostCard } from "@/components/custom/BlogPostCard"
 import { blogPosts } from "@/data/blog-posts"
 import { Badge } from "@/components/ui/badge"
+import Image from "next/image"
 
 export default function BlogPage() {
   // Get unique categories
@@ -79,7 +80,7 @@ export default function BlogPage() {
                   </div>
                   <div className="relative h-64 lg:h-80 rounded-lg overflow-hidden">
                     {blogPosts[0].imageUrl ? (
-                      <img
+                      <Image
                         src={blogPosts[0].imageUrl}
                         alt={blogPosts[0].title}
                         className="object-cover w-full h-full"

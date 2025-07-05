@@ -2,6 +2,7 @@ import { Navigation } from "@/components/custom/Navigation"
 import { Footer } from "@/components/custom/Footer"
 import { companyInfo } from "@/data/company"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import Image from "next/image"
 
 
 export default function AboutPage() {
@@ -141,7 +142,7 @@ export default function AboutPage() {
                  <CardHeader className="text-center">
                    <div className="w-32 h-32 mx-auto mb-4 bg-primary/10 rounded-full flex items-center justify-center">
                      {member.imageUrl ? (
-                       <img
+                       <Image
                          src={member.imageUrl}
                          alt={member.name}
                          className="w-full h-full object-cover rounded-full"

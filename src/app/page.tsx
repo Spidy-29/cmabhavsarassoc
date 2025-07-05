@@ -1,9 +1,16 @@
+
 import { Navigation } from "@/components/custom/Navigation"
 import { Footer } from "@/components/custom/Footer"
 import { Button } from "@/components/ui/button"
 import { services } from "@/data/services"
+import { Swiper, SwiperSlide } from "swiper/react"
+import { Autoplay, Pagination } from "swiper/modules"
+import "swiper/css"
+import "swiper/css/pagination"
 import Link from "next/link"
 import Image from "next/image"
+import { HeroBannerImages } from "@/data/common"
+import { HeroSlider } from "@/components/custom/HeroSlider"
 
 export default function Home() {
   return (
@@ -36,7 +43,8 @@ export default function Home() {
               </div>
               <div className="relative h-[400px] rounded-lg overflow-hidden">
                 {/* Add your hero image here */}
-                <Image src="/images/banner-2.jpg" alt="Professional Services Image" width={1000}height={1000} />
+                <HeroSlider images={HeroBannerImages} />
+                {/* <Image src="/images/banner-1.jpg" alt="Professional Services Image" className="w-full h-full object-cover"/> */}
                 {/* <div className="absolute inset-0 bg-primary/10 flex items-center justify-center">
                   <p className="text-primary/50 text-lg">Professional Services Image</p>
                 </div> */}
