@@ -69,7 +69,6 @@ export default function ContactPage() {
                     <div>
                       <h4 className="font-medium text-primary mb-1">Contact</h4>
                       <p className="text-muted-foreground">
-                        Office: {companyInfo.contact.phone}<br />
                         Mobile: {companyInfo.contact.mobile}<br />
                         Email: {companyInfo.contact.email}
                       </p>
