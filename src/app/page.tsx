@@ -1,4 +1,3 @@
-
 import { Navigation } from "@/components/custom/Navigation"
 import { Footer } from "@/components/custom/Footer"
 import { Button } from "@/components/ui/button"
@@ -19,35 +18,30 @@ export default function Home() {
       
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-r from-primary/10 to-primary/5 py-20">
+        <section className="relative bg-gradient-to-r from-primary/10 to-primary/5 py-12 sm:py-16 md:py-20">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-              <div className="space-y-6">
-                <h1 className="text-4xl md:text-5xl font-heading font-bold text-primary">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+              <div className="space-y-4 sm:space-y-6">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-primary leading-tight">
                   Professional Cost Accountants in Ahmedabad & Rajkot
                 </h1>
-                <p className="text-lg text-muted-foreground">
+                <p className="text-base sm:text-lg text-muted-foreground">
                   The Firm was set up by its founder partner CMA Ashish Bhavsar at Ahmedabad. 
                   To provide all type of service to our client at one place through qualified, 
                   motivated and dedicated young team. Our mission to be a part of client growth 
                   story through our professional excellence.
                 </p>
-                <div className="flex gap-4">
-                  <Button asChild size="lg">
+                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                  <Button asChild size="lg" className="w-full sm:w-auto">
                     <Link href="/contact">Get Professional Consultation</Link>
                   </Button>
-                  <Button variant="outline" size="lg" asChild>
+                  <Button variant="outline" size="lg" asChild className="w-full sm:w-auto">
                     <Link href="/services">View Our Services</Link>
                   </Button>
                 </div>
               </div>
-              <div className="relative h-[400px] rounded-lg overflow-hidden">
-                {/* Add your hero image here */}
+              <div className="relative h-[300px] sm:h-[350px] md:h-[400px] rounded-lg overflow-hidden">
                 <HeroSlider images={HeroBannerImages} />
-                {/* <Image src="/images/banner-1.jpg" alt="Professional Services Image" className="w-full h-full object-cover"/> */}
-                {/* <div className="absolute inset-0 bg-primary/10 flex items-center justify-center">
-                  <p className="text-primary/50 text-lg">Professional Services Image</p>
-                </div> */}
               </div>
             </div>
           </div>
@@ -93,11 +87,11 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
               {services.map((service) => (
                 <div
                   key={service.title}
-                  className="group relative overflow-hidden rounded-lg border bg-background p-6 hover:border-primary/50 transition-colors"
+                  className="group relative overflow-hidden rounded-lg border bg-background p-4 sm:p-6 hover:border-primary/50 transition-colors"
                 >
                   <div className="space-y-4">
                     <h3 className="font-heading text-xl font-semibold text-primary">
@@ -144,7 +138,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
               <div className="bg-background p-6 rounded-lg">
                 <h3 className="text-xl font-heading font-semibold text-primary mb-4">
                   Industrial Sector

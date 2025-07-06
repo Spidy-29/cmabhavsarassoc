@@ -5,6 +5,7 @@ import { Footer } from "@/components/custom/Footer"
 import { ContactForm } from "@/components/custom/ContactForm"
 import { companyInfo } from "@/data/company"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import Link from "next/link"
 
 export default function ContactPage() {
   return (
@@ -28,17 +29,17 @@ export default function ContactPage() {
         </section>
 
         {/* Contact Content */}
-        <section className="py-16">
+        <section className="py-12 sm:py-16">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
               {/* Contact Form */}
               <div>
                 <Card>
                   <CardHeader>
-                    <CardTitle className="text-2xl font-heading text-primary">
+                    <CardTitle className="text-xl sm:text-2xl font-heading text-primary">
                       Quick Inquiry
                     </CardTitle>
-                    <p className="text-muted-foreground">
+                    <p className="text-sm sm:text-base text-muted-foreground">
                       Send us your requirements and we&apos;ll get back to you with professional advice
                     </p>
                   </CardHeader>
@@ -49,7 +50,7 @@ export default function ContactPage() {
               </div>
 
               {/* Contact Information */}
-              <div className="space-y-8">
+              <div className="space-y-6 sm:space-y-8">
                 {/* Head Office */}
                 <Card>
                   <CardHeader>
@@ -150,34 +151,34 @@ export default function ContactPage() {
                   <CardContent>
                     <div className="flex space-x-4">
                       {companyInfo.social.linkedin && (
-                        <a
+                        <Link
                           href={companyInfo.social.linkedin}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-primary hover:text-primary/80 transition-colors"
                         >
                           LinkedIn
-                        </a>
+                        </Link>
                       )}
                       {companyInfo.social.twitter && (
-                        <a
+                        <Link
                           href={companyInfo.social.twitter}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-primary hover:text-primary/80 transition-colors"
                         >
                           Twitter
-                        </a>
+                        </Link>
                       )}
                       {companyInfo.social.facebook && (
-                        <a
+                        <Link
                           href={companyInfo.social.facebook}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-primary hover:text-primary/80 transition-colors"
                         >
                           Facebook
-                        </a>
+                        </Link>
                       )}
                     </div>
                   </CardContent>
@@ -221,18 +222,18 @@ export default function ContactPage() {
               We&apos;re here to help your business achieve compliance and growth.
             </p>
             <div className="flex gap-4 justify-center">
-              <a
+              <Link
                 href={`tel:${companyInfo.contact.mobile}`}
                 className="bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors"
               >
                 Call Now: {companyInfo.contact.mobile}
-              </a>
-              <a
+              </Link>
+              <Link
                 href={`mailto:${companyInfo.contact.email}`}
                 className="border border-primary text-primary px-6 py-3 rounded-lg hover:bg-primary/10 transition-colors"
               >
                 Email: {companyInfo.contact.email}
-              </a>
+              </Link>
             </div>
           </div>
         </section>
