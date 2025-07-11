@@ -142,7 +142,7 @@ export default function ContactPage() {
                 </Card>
 
                 {/* Social Media */}
-                <Card>
+                {/* <Card>
                   <CardHeader>
                     <CardTitle className="text-xl font-heading text-primary">
                       Connect With Us
@@ -182,7 +182,7 @@ export default function ContactPage() {
                       )}
                     </div>
                   </CardContent>
-                </Card>
+                </Card> */}
               </div>
             </div>
           </div>

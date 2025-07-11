@@ -15,28 +15,6 @@ export function Footer() {
             <p className="text-sm text-muted-foreground">
               {companyInfo.description}
             </p>
-            <div className="flex space-x-4">
-              {companyInfo.social.linkedin && (
-                <Link
-                  href={companyInfo.social.linkedin}
-                  className="text-muted-foreground hover:text-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  LinkedIn
-                </Link>
-              )}
-              {companyInfo.social.twitter && (
-                <Link
-                  href={companyInfo.social.twitter}
-                  className="text-muted-foreground hover:text-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Twitter
-                </Link>
-              )}
-            </div>
           </div>
 
 
