@@ -200,7 +200,7 @@ export default function Home() {
                   key={feature.title}
                   className="text-center p-6 rounded-lg bg-background border"
                 >
-                  <h3 className="font-heading text-xl font-semibold text-primary mb-2">
+                  <h3 className="font-heading text-lg font-semibold text-primary mb-2">
                     {feature.title}
                   </h3>
                   <p className="text-muted-foreground">
