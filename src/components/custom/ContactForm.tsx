@@ -1,3 +1,5 @@
+"use client"
+
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import * as z from "zod"
@@ -31,11 +33,13 @@ const formSchema = z.object({
   }),
 })
 
+type FormData = z.infer<typeof formSchema>
+
 export function ContactForm() {
   const { toast } = useToast()
   const [isSubmitting, setIsSubmitting] = useState(false)
   
-  const form = useForm<z.infer<typeof formSchema>>({
+  const form = useForm<FormData>({
     resolver: zodResolver(formSchema),
     defaultValues: {
       name: "",
@@ -45,41 +49,49 @@ export function ContactForm() {
     },
   })
 
-  async function onSubmit(values: z.infer<typeof formSchema>) {
+  const onSubmit = async (values: FormData) => {
     setIsSubmitting(true)
     
     try {
-      
-      const response = await fetch("https://script.google.com/a/macros/gaife.com/s/AKfycbx8Hr-9tiOJtcxgKeMFmHqOaMqN9VrVrL76w8EPbNp1njC17yvmeVyMAPIwO2CcrJoM/exec", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(values),
-    });
-    console.log(response)
-      // if (data.success) {
-      //   // Show success toast
-      //   toast({
-      //     title: "Message sent successfully!",
-      //     description: "Thank you for contacting us. We'll get back to you soon.",
-      //     variant: "default",
-      //   })
+      console.log('Submitting form with values:', values)
+    
+      // Call your Next.js API route instead of Google Apps Script directly
+      const response = await fetch("/api/submit-form", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(values)
+      })
 
-      //   // Reset form
-      //   // form.reset()
-      // } else {
-      //   throw new Error(data.error || 'Failed to send message')
-      // }
+      console.log('Response status:', response.status)
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`)
+      }
+
+      const data = await response.json()
+      console.log('Response data:', data)
+
+      if (data.success) {
+        toast({
+          title: "Message sent successfully!",
+          description: "Thank you for contacting us. We'll get back to you soon.",
+          variant: "default",
+        })
+
+        // Reset form
+        form.reset()
+      } else {
+        throw new Error(data.error || 'Failed to send message')
+      }
       
     } catch (error: any) {
       console.error('Form submission error:', error)
       
-      // Show error toast with more specific message
-      const errorMessage = error.message || 'Failed to send message'
       toast({
         title: "Failed to send message",
-        description: errorMessage,
+        description: error.message || 'Please try again later.',
         variant: "destructive",
       })
     } finally {
@@ -160,4 +172,4 @@ export function ContactForm() {
       </form>
     </Form>
   )
-} 
+}

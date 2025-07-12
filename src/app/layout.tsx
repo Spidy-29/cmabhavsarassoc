@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Open_Sans, Titillium_Web } from "next/font/google"
 import "./globals.css"
 import { Analytics } from '@vercel/analytics/next';
+import { Toaster } from "@/components/ui/toaster";
 
 
 const openSans = Open_Sans({ subsets: ["latin"], variable: "--font-sans" })
@@ -25,6 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${openSans.variable} ${titillium.variable} font-sans antialiased`}>
         {children}
+        <Toaster />
         <Analytics />
       </body>
     </html>
