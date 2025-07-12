@@ -13,6 +13,8 @@ import {
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { companyInfo } from "@/data/company"
+import { useToast } from "@/hooks/use-toast"
+import { useState } from "react"
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -24,12 +26,15 @@ const formSchema = z.object({
   phone: z.string().min(10, {
     message: "Please enter a valid phone number.",
   }),
-  message: z.string().min(10, {
-    message: "Message must be at least 10 characters.",
+  message: z.string().min(5, {
+    message: "Message must be at least 5 characters.",
   }),
 })
 
 export function ContactForm() {
+  const { toast } = useToast()
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -40,9 +45,46 @@ export function ContactForm() {
     },
   })
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    // Handle form submission
-    console.log(values)
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    setIsSubmitting(true)
+    
+    try {
+      
+      const response = await fetch("https://script.google.com/a/macros/gaife.com/s/AKfycbx8Hr-9tiOJtcxgKeMFmHqOaMqN9VrVrL76w8EPbNp1njC17yvmeVyMAPIwO2CcrJoM/exec", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(values),
+    });
+    console.log(response)
+      // if (data.success) {
+      //   // Show success toast
+      //   toast({
+      //     title: "Message sent successfully!",
+      //     description: "Thank you for contacting us. We'll get back to you soon.",
+      //     variant: "default",
+      //   })
+
+      //   // Reset form
+      //   // form.reset()
+      // } else {
+      //   throw new Error(data.error || 'Failed to send message')
+      // }
+      
+    } catch (error: any) {
+      console.error('Form submission error:', error)
+      
+      // Show error toast with more specific message
+      const errorMessage = error.message || 'Failed to send message'
+      toast({
+        title: "Failed to send message",
+        description: errorMessage,
+        variant: "destructive",
+      })
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -108,7 +150,13 @@ export function ContactForm() {
           )}
         />
         
-        <Button type="submit" className="w-full">Send Message</Button>
+        <Button 
+          type="submit" 
+          className="w-full" 
+          disabled={isSubmitting}
+        >
+          {isSubmitting ? "Sending..." : "Send Message"}
+        </Button>
       </form>
     </Form>
   )
