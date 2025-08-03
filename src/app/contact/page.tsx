@@ -202,16 +202,16 @@ export default function ContactPage() {
             
             <div className="bg-background p-2 rounded-lg text-center">
               <div className="h-64 bg-muted/30 rounded-lg flex items-center justify-center">
-                 <iframe
-          title="Project Site Location - Ahmedabad"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7344.011291761679!2d72.52532677531161!3d23.02356491629118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84db5bc4ad8d%3A0x79a10d0dd0319345!2sAshish%20Bhavsar%20%26%20Associates!5e0!3m2!1sen!2sin!4v1752261774911!5m2!1sen!2sin"
-          width="100%"
-          height="100%"
-          style={{ border: 0 }}
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+              <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229.50064131313437!2d72.533021737455!3d23.02339546053513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84db5bc4ad8d%3A0x79a10d0dd0319345!2sAshish%20Bhavsar%20%26%20Associates!5e0!3m2!1sen!2sin!4v1754228117650!5m2!1sen!2sin" 
+              width="100%" 
+              title="Ashish Bhavsar & Associates Location - Ahmedabad"
+              height="100%" 
+              style={{border:0}} 
+              allowFullScreen 
+              loading="lazy"
+               referrerPolicy="no-referrer-when-downgrade"></iframe>
+                 
               </div>
             </div>
           </div>
