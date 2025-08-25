@@ -13,8 +13,36 @@ const titillium = Titillium_Web({
 })
 
 export const metadata: Metadata = {
-  title: "CMA Bhavsar & Associates",
-  description: "Professional Chartered Accountants",
+  title: "CMA Bhavsar Associates | Cost Accountants & Tax Consultants in Ahmedabad",
+  description: "CMA Bhavsar Associates specializes in cost accounting, taxation, GST, auditing, and business advisory services. Trusted advisors for business finances, compliance, and growth in Ahmedabad, Gujarat.",
+  keywords: "cost accountants, tax consultants, GST, auditing, financial advisory, business registration, Ahmedabad, Gujarat, CMA Bhavsar Associates",
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://www.cmabhavsarassoc.in/",
+  },
+  icons: {
+    icon: "/images/logo.svg",
+  },
+  openGraph: {
+    title: "CMA Bhavsar Associates | Cost Accountants & Tax Consultants in Ahmedabad",
+    description: "CMA Bhavsar Associates specializes in cost accounting, taxation, GST, auditing, and business advisory services. Trusted advisors for business finances, compliance, and growth in Ahmedabad, Gujarat.",
+    type: "website",
+    url: "https://www.cmabhavsarassoc.in/",
+    siteName: "CMA Bhavsar Associates",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CMA Bhavsar Associates | Cost Accountants & Tax Consultants in Ahmedabad",
+    description: "CMA Bhavsar Associates specializes in cost accounting, taxation, GST, auditing, and business advisory services. Trusted advisors for business finances, compliance, and growth in Ahmedabad, Gujarat.",
+  },
+  authors: [{ name: "CMA Bhavsar Associates" }],
+  creator: "CMA Bhavsar Associates",
+  publisher: "CMA Bhavsar Associates",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
 }
 
 export default function RootLayout({
