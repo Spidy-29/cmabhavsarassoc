@@ -16,17 +16,18 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { companyInfo } from "@/data/company"
 import { useToast } from "@/hooks/use-toast"
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import { submitToGoogleForm } from "@/lib/googleForm"
 
 const formSchema = z.object({
-  name: z.string().min(2, {
-    message: "Name must be at least 2 characters.",
-  }),
+  name: z.string()
+    .min(2, { message: "Name must be at least 2 characters." })
+    .regex(/^[a-zA-Z\s]+$/, { message: "Name can only contain letters and spaces." }),
   email: z.string().email({
     message: "Please enter a valid email address.",
   }),
-  phone: z.string().min(10, {
-    message: "Please enter a valid phone number.",
+  phone: z.string().regex(/^[+]?\d{10,15}$/, {
+    message: "Please enter a valid phone number (10 to 15 digits).",
   }),
   message: z.string().min(5, {
     message: "Message must be at least 5 characters.",
@@ -49,49 +50,38 @@ export function ContactForm() {
     },
   })
 
+  useEffect(() => {
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      (window as any).gtag('event', 'contact_form_view')
+    }
+  }, [])
+
   const onSubmit = async (values: FormData) => {
     setIsSubmitting(true)
     
     try {
-      console.log('Submitting form with values:', values)
-    
-      // Call your Next.js API route instead of Google Apps Script directly
-      const response = await fetch("/api/submit-form", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(values)
+      await submitToGoogleForm(values as any)
+      
+      if (typeof window !== 'undefined' && (window as any).gtag) {
+        (window as any).gtag('event', 'contact_form_submit')
+      }
+
+      toast({
+        title: "Message sent successfully!",
+        description: "Thank you! Your query has been submitted successfully. We'll get back to you soon.",
+        variant: "default",
       })
 
-      console.log('Response status:', response.status)
-      
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`)
-      }
-
-      const data = await response.json()
-      console.log('Response data:', data)
-
-      if (data.success) {
-        toast({
-          title: "Message sent successfully!",
-          description: "Thank you for contacting us. We'll get back to you soon.",
-          variant: "default",
-        })
-
-        // Reset form
-        form.reset()
-      } else {
-        throw new Error(data.error || 'Failed to send message')
-      }
-      
+      // Reset form
+      form.reset()
     } catch (error: any) {
-      console.error('Form submission error:', error)
+      if (typeof window !== 'undefined' && (window as any).gtag) {
+        (window as any).gtag('event', 'contact_form_error')
+      }
       
       toast({
         title: "Failed to send message",
-        description: error.message || 'Please try again later.',
+        description: "Something went wrong while submitting your query. Please try again.",
         variant: "destructive",
       })
     } finally {
@@ -123,7 +113,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input placeholder="your.email@example.com" {...field} />
+                <Input type="email" placeholder="your.email@example.com" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -137,7 +127,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Phone</FormLabel>
               <FormControl>
-                <Input placeholder="Your phone number" {...field} />
+                <Input type="tel" placeholder="Your phone number" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>

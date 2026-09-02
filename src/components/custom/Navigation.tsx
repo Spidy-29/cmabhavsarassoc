@@ -91,8 +91,8 @@ export function Navigation() {
               <Image 
                 src="/images/ashish-bhavsar-and-associates.png" 
                 alt="Ashish Bhavsar & Associates" 
-                width={80} 
-                height={80}
+                width={120} 
+                height={100}
                 // className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24"
               />
               <div className="flex flex-col">
